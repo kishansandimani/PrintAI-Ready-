@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1200" role="img" aria-labelledby="title desc">
+<title id="title">A wide 3D printing workshop</title><desc id="desc">A softly lit maker studio with several desktop 3D printers, filament, tools, and finished sample prints.</desc>
+<defs>
+ <linearGradient id="wall" x2="0" y2="1"><stop stop-color="#f4edff"/><stop offset=".62" stop-color="#e6e1f0"/><stop offset="1" stop-color="#d8d2df"/></linearGradient>
+ <linearGradient id="window" x2="1" y2="1"><stop stop-color="#e4f4ff"/><stop offset="1" stop-color="#d4cdf7"/></linearGradient>
+ <linearGradient id="table" x2="0" y2="1"><stop stop-color="#a98fae"/><stop offset="1" stop-color="#685c73"/></linearGradient>
+ <linearGradient id="frame" x2="1" y2="1"><stop stop-color="#fbfaff"/><stop offset="1" stop-color="#ddd6e8"/></linearGradient>
+ <linearGradient id="glass" x2="1" y2="1"><stop stop-color="#fff" stop-opacity=".72"/><stop offset="1" stop-color="#e5dbfb" stop-opacity=".3"/></linearGradient>
+ <linearGradient id="purple" x2="1"><stop stop-color="#8b5cf6"/><stop offset="1" stop-color="#d946a8"/></linearGradient>
+ <linearGradient id="floor" x2="0" y2="1"><stop stop-color="#b9aec1"/><stop offset="1" stop-color="#8d8298"/></linearGradient>
+ <filter id="shadow" x="-.3" y="-.3" width="1.6" height="1.8"><feGaussianBlur stdDeviation="18"/></filter>
+ <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse"><path d="M48 0H0V48" fill="none" stroke="#897c9c" stroke-opacity=".12"/></pattern>
+</defs>
+<rect width="1600" height="1200" fill="url(#wall)"/>
+<path d="M0 800 1600 740v460H0Z" fill="url(#floor)"/><path d="M0 800 1600 740v460H0Z" fill="url(#grid)"/>
+<!-- broad workshop windows -->
+<g opacity=".9"><rect x="110" y="95" width="480" height="390" rx="18" fill="#c8bfd8"/><rect x="128" y="113" width="444" height="354" rx="12" fill="url(#window)"/><path d="M350 113v354M128 290h444" stroke="#b4a8c8" stroke-width="13"/><path d="M150 140h175v130H150zM375 140h170v130H375z" fill="#fff" opacity=".22"/></g>
+<g><rect x="650" y="115" width="390" height="260" rx="17" fill="#d4cbdc"/><rect x="668" y="133" width="354" height="224" rx="10" fill="#eff2fa"/><path d="M690 336 805 205l72 80 65-94 61 145Z" fill="#c2b5db" opacity=".55"/><circle cx="956" cy="182" r="28" fill="#f5d9a7" opacity=".9"/></g>
+<!-- wall shelves, tools, and filament -->
+<path d="M1110 188h420M1125 365h390" stroke="#8c7b97" stroke-width="18" stroke-linecap="round"/>
+<g opacity=".9"><rect x="1150" y="111" width="102" height="72" rx="8" fill="#fff"/><circle cx="1201" cy="147" r="30" fill="#bc7be2"/><circle cx="1201" cy="147" r="9" fill="#f4edff"/><rect x="1280" y="112" width="102" height="72" rx="8" fill="#fff"/><circle cx="1331" cy="148" r="30" fill="#74c4c1"/><circle cx="1331" cy="148" r="9" fill="#f4edff"/><rect x="1410" y="112" width="82" height="72" rx="8" fill="#fff"/><circle cx="1451" cy="148" r="30" fill="#f0a3be"/><circle cx="1451" cy="148" r="9" fill="#f4edff"/></g>
+<g stroke="#6c6076" stroke-width="13" stroke-linecap="round"><path d="M1170 226v90M1220 225v100M1280 224v90M1345 224v105M1410 224v88M1480 224v100"/></g>
+<g stroke="#dacded" stroke-width="8" stroke-linecap="round"><path d="M1150 235v60M1200 230v72M1262 230v68M1328 232v70M1394 232v62M1462 230v72"/></g>
+<!-- wide workbench -->
+<ellipse cx="820" cy="925" rx="760" ry="75" fill="#4c4257" opacity=".24" filter="url(#shadow)"/>
+<path d="M0 662 1600 626v96L0 760Z" fill="#c7b5cb"/><path d="M0 728 1600 692v68L0 800Z" fill="url(#table)"/><path d="M95 764v263m250-269v270m260-276v282m310-289v296m300-303v305m260-312v300" stroke="#66596e" stroke-width="28"/>
+<!-- left desktop printer -->
+<g transform="translate(95 348) scale(.8)"><rect x="0" y="0" width="360" height="330" rx="24" fill="url(#frame)" stroke="#9d8fac" stroke-width="10"/><rect x="24" y="26" width="312" height="252" rx="12" fill="url(#glass)" stroke="#b4a4c7" stroke-width="6"/><path d="M45 54h270M55 55v205m250-205v205" stroke="#93859f" stroke-width="9"/><rect x="135" y="48" width="90" height="34" rx="10" fill="url(#purple)"/><path d="M180 82v82" stroke="#776783" stroke-width="11"/><path d="m165 164 15 25 15-25" fill="#d946a8"/><path d="M75 245h210l-22 24H97Z" fill="#b4a3c9" stroke="#82718e" stroke-width="5"/><path d="M138 242v-65h82v65M151 177v-42h56v42M166 135v-30h25v30" fill="#c9b4e9" stroke="#9b80bf" stroke-width="5"/><path d="M142 205h74m-74 14h74m-74 14h74" stroke="#fff" stroke-width="5" opacity=".8"/><rect x="278" y="286" width="54" height="22" rx="7" fill="#66596e"/><circle cx="305" cy="297" r="6" fill="#b7f0d6"/></g>
+<!-- central desktop printer -->
+<g transform="translate(505 283)"><rect x="0" y="0" width="465" height="397" rx="27" fill="url(#frame)" stroke="#93869e" stroke-width="11"/><rect x="30" y="32" width="405" height="303" rx="13" fill="url(#glass)" stroke="#b4a7c0" stroke-width="7"/><path d="M51 66h360M60 68v240m345-240v240" stroke="#887b91" stroke-width="10"/><rect x="177" y="56" width="112" height="41" rx="12" fill="url(#purple)"/><path d="M233 97v104" stroke="#70637c" stroke-width="12"/><path d="m214 201 19 30 19-30" fill="#d946a8"/><path d="M82 301h340l-40 31H119Z" fill="#b7a5ca" stroke="#82728f" stroke-width="6"/>
+<!-- visible layered print -->
+<path d="M187 295v-69h92v69M201 226v-46h64v46M217 180v-34h32v34" fill="#ceb8ed" stroke="#997bbd" stroke-width="6"/><path d="M190 245h85m-85 14h85m-85 14h85m-59-94h34m-34 14h34" stroke="#fff" stroke-width="5" opacity=".83"/><path d="M199 164c17-32 56-32 72 0" fill="none" stroke="#8b5cf6" stroke-width="7" stroke-linecap="round"/>
+<rect x="360" y="350" width="78" height="28" rx="9" fill="#51455c"/><circle cx="400" cy="364" r="8" fill="#a7eacb"/><text x="43" y="375" font-family="Arial,sans-serif" font-size="14" fill="#766a80">PRINT READY</text></g>
+<!-- right small resin printer -->
+<g transform="translate(1062 414) scale(.66)"><rect width="360" height="330" rx="24" fill="url(#frame)" stroke="#9d8fac" stroke-width="10"/><rect x="25" y="28" width="310" height="250" rx="12" fill="url(#glass)" stroke="#b4a4c7" stroke-width="6"/><path d="M50 53h260M59 55v205m240-205v205" stroke="#93859f" stroke-width="9"/><rect x="137" y="48" width="86" height="34" rx="10" fill="#7965a5"/><path d="M180 82v104" stroke="#776783" stroke-width="11"/><path d="M120 239h120l-20 30h-80Z" fill="#b4a3c9" stroke="#82718e" stroke-width="5"/><path d="M159 237v-66h43v66m-34-66v-38h25v38" fill="#e5b7dd" stroke="#9b80bf" stroke-width="5"/><path d="M147 285h75" stroke="#7a6a84" stroke-width="7"/></g>
+<!-- finished prints, filament spools, small plants -->
+<g><path d="M180 651h66l-13 54h-40z" fill="#f1eee8" stroke="#8d8093" stroke-width="5"/><path d="M191 650v-52h43v52m-37-52v-38h31v38m-25-38v-25h19v25" fill="#c5a9e8" stroke="#947ab0" stroke-width="4"/><path d="M1190 667h90l-18 44h-54z" fill="#e8e2ed" stroke="#887993" stroke-width="5"/><path d="M1210 666c8-39 44-39 52 0" fill="#92cfc2" stroke="#689d93" stroke-width="5"/><path d="M1360 656h96l-21 54h-54z" fill="#eee8ef" stroke="#887993" stroke-width="5"/><path d="M1385 654v-47h48v47m-38-47v-35h28v35" fill="#f0a7c8" stroke="#a77d9c" stroke-width="5"/></g>
+<g transform="translate(451 607)"><circle cx="54" cy="37" r="34" fill="#f5a9c8" stroke="#fff" stroke-width="8"/><circle cx="54" cy="37" r="12" fill="#e7dff0"/><circle cx="137" cy="37" r="34" fill="#8bd0c7" stroke="#fff" stroke-width="8"/><circle cx="137" cy="37" r="12" fill="#e7dff0"/><circle cx="220" cy="37" r="34" fill="#9b82dc" stroke="#fff" stroke-width="8"/><circle cx="220" cy="37" r="12" fill="#e7dff0"/></g>
+<!-- desk task lighting -->
+<path d="M40 170h31v445H40zM25 605h62v12H25z" fill="#fff" opacity=".35"/><path d="M1510 405h25v225h-25zM1496 630h54v10h-54z" fill="#fff" opacity=".28"/>
+<rect width="1600" height="1200" fill="url(#grid)" opacity=".22"/>
+<path d="M0 0h1600v1200H0z" fill="none" stroke="#fff" stroke-opacity=".28" stroke-width="18"/>
+</svg>
